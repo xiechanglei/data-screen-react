@@ -16,7 +16,7 @@ export const designSize:number = 1920
  */
 export const mainColor: string = "#33B9E2"
 /**
- * 二级色调
+ * 二级色调，这里使用颜色生成器进行转换生成的，如果后期需要修改的话，也可以像上面的主色调一样直接写成16进制的颜色值
  */
 export const secondColor: string = new Color(mainColor).rotate(200).saturated().hex()
 /**

@@ -1,6 +1,9 @@
 import {RgbColor} from "./RgbColor";
 import {HslColor} from "./HslColor";
 
+/**
+ * 闲的无聊，写了一个颜色分析器
+ */
 export class Color {
     color: RgbColor | HslColor;
 
